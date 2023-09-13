@@ -560,6 +560,8 @@ body {
 }
 .modal-button-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 24px;
+  height: 24px;
 }
 .modal-paragraph {
   font-weight: 500;
@@ -604,7 +606,7 @@ body {
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-name:focus {
+input:focus + svg {
   fill: #4d5ae5;
 }
 .comment-container {
